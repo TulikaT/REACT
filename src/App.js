@@ -1,6 +1,6 @@
 function App() {
   return (
-   <h1> This is custom react | Tulika</h1>
+   <h1> This is Custom React | Tulika</h1>
   );
 }
 
