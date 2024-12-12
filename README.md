@@ -1,13 +1,13 @@
 REACT is a javascript library used to build frontend web apps. 
 react makes developing web app easy
 
-there are two ways to create react apps:-
+There are two ways to create react apps:-
 
-1. custom react app using command "create-react-app"
+1. Custom react app using command "create-react-app"
    disadvantage: it installs unwanted files, thus makes it bulky
    these have .js files for functionality implementation
    create is an utility
 
-2. build using bundlers such as vite, webpack 
+2. Build using bundlers such as vite, webpack 
    these have .jsx files which include html within javascript
    
