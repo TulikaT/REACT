@@ -34,3 +34,6 @@ Custom react(.js files)
 -> here also fragment concept
 -> must start component's name with capital letter
 -> custom tags are used to use another component in place like <chai/>
+
+We can create own react without installingreact ,just by using javascript
+-> react code are converted or persed into js objects to form tree during compilation 
