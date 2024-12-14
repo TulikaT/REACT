@@ -37,3 +37,5 @@ Custom react(.js files)
 
 We can create own react without installingreact ,just by using javascript
 -> react code are converted or persed into js objects to form tree during compilation 
+
+-> variables are used in interpolation {variable_name}
