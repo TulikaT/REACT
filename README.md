@@ -39,3 +39,16 @@ We can create own react without installingreact ,just by using javascript
 -> react code are converted or persed into js objects to form tree during compilation 
 
 -> variables are used in interpolation {variable_name}
+
+ui data update
+-> done through hooks
+-> variables that need to be updated must be declared with let
+
+virtual DOM
+Reconciliation algo
+fibre algo 
+
+
+
+
+
