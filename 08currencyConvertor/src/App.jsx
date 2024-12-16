@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
-import {InputBox} from './components'
+import {InputBox, Img} from './components'
+
 
 function App() {
     
@@ -26,13 +27,15 @@ function App() {
   }
 
   return (
+    
       <div
-          className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
+          className="w-full h-screen flex flex-row justify-center items-center bg-cover bg-no-repeat gap-10"
           style={{
               backgroundImage: `url('https://www.investopedia.com/thmb/ENMkxrFH_dri-ZP3u2jdcQFuk9o=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/currencyGettyImages-555367139-4bea5d5644f84279b20b2dd485d8bede.jpeg')`,
           }}
-      >
-          <div className="w-full">
+      >   <Img className="w-[50%]"/>
+          <div className="w-[50%]">
+              
               <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                   <form
                       onSubmit={(e) => {
